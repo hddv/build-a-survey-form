@@ -1,0 +1,43 @@
+input, textarea, select{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+
+body{
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+
+}
+
+input, textarea, select{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;  /*put inline on middle on the line and note too high */
+  
+}

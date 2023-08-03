@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  test
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form" action="">
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <label id="number-label" for="number">Age(optional)</label>
+      <input type="number" id="number" min="1" max="120" placeholder="Age"/>
+
+      <select name="country" id="dropdown">
+        <option  value="1">France</option>
+        <option  value="2">Belgique</option>
+      </select>
+
+      <label for="friend">Friend<input id="friend" name="recommand" type="radio" value="1" class="inline"></label>
+      
+      <label for="familly">Familly <input id="familly" name="recommand" type="radio" value="2" class="inline"></label>
+      
+
+      <label for="cat">Cat <input id="cat" name="recommand" type="checkbox" value="1" class="inline"></label>
+      
+      <label for="dog">Dog <input id="dog" name="recommand" type="checkbox" value="2" class="inline"></label>
+      
+      <label for="bird">Bird <input id="bird" name="recommand" type="checkbox" value="3" class="inline"></label>
+      
+      <label for="fish">Fish <input id="fish" name="recommand" type="checkbox" value="4" class="inline"></label>
+      
+
+      <label for="comment">Comment</label>
+      <textarea name="" id="comment" cols="30" rows="10"></textarea>
+      <input id="submit" type="submit" />
+    </form>
+  </body>
 </html>
